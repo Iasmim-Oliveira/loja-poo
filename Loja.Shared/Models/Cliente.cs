@@ -10,6 +10,6 @@ public class Cliente
 
     public override string ToString()
     {
-        return $"C{Id.ToString("D3")} {Nome} - CPF{Cpf}";
+        return $"ID-{Id.ToString("D3")}, Nome - {Nome}, - CPF{Cpf}";
     }
 }
